@@ -15,7 +15,6 @@ provider "aws" {
   secret_key = "Rqbs9l9fTDvKgCXV/RkVG296jGHSxyzi5FIG7Wd1"
 }
   
-}
 resource "aws_instance" "ec2demo" {
   ami           = "ami-08c40ec9ead489470" # Amazon Linux in us-east-1, update as per your region
   instance_type = "t2.micro"
