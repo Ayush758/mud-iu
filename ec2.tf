@@ -12,7 +12,7 @@ provider "aws" {
   #profile = "practice"
   region     = "us-east-1"
   access_key = "AKIAQICOLVC5JKTKBB7E"
-secret_key = "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"
+  secret_key = "Rqbs9l9fTDvKgCXV/RkVG296jGHSxyzi5FIG7Wd1"
 }
   
 }
