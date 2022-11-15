@@ -9,7 +9,7 @@ terraform {
 
 # Configure the AWS Provider
 provider "aws" {
-  profile = "default"
+  profile = "practice"
   region     = "us-east-1"
 }
 resource "aws_instance" "ec2demo" {
